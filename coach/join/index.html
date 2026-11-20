@@ -77,7 +77,8 @@
     document.getElementById("broken").style.display = "block";
   } else {
     const role = params.get("role") || "";
-    const appLink = "framelabcoach://join?s=" + encodeURIComponent(share) + "&role=" + encodeURIComponent(role);
+    const invitee = params.get("for") || "";
+    const appLink = "framelabcoach://join?s=" + encodeURIComponent(share) + "&role=" + encodeURIComponent(role) + "&for=" + encodeURIComponent(invitee);
     const openButton = document.getElementById("open");
     openButton.href = appLink;
 
