@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "C4LBK77NWQ.com.markharman.FrameLabCoach",
+          "C4LBK77NWQ.com.markharman.FrameLabCoach.dev"
+        ],
+        "components": [
+          { "/": "/coach/join*", "comment": "FrameLab Coach program invitations" }
+        ]
+      }
+    ]
+  }
+}
